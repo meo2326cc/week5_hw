@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="stylesheet" href="./all.css">
+</head>
+
+<body>
+  <div class="d-flex">
+
+    <!-- EJS -->
+    <%- include('./layout/template'); -%>
+
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center p-5 fw-bold">
+            <h1 class="fs-1 lh-lg mr-50 fw-bold">Admin</h1>
+            <a href="#" class="d-block"> <span class="material-icons">
+                add
+              </span>Add New Admin</a>
+          </div>
+          <div class="p-5">
+            <a href="#" class="me-3"><span class="material-icons">
+                search
+              </span></a>
+            <a href="#"><span class="material-icons">
+                notifications
+              </span></a>
+          </div>
+        </div>
+        <div class="px-5">
+          <table class="table">
+            <thead>
+              <tr class=" border-dark">
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Verified</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">#1</th>
+                <td>Emir Wicks</td>
+                <td>emir.wicks@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#2</th>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#3</th>
+                <td>Mahima Lopez</td>
+                <td>mahima.lopez@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#4</th>
+                <td>Pharrell Murray</td>
+                <td>pharrell.murray@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#5</th>
+                <td>Annika Mcbride</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#6</th>
+                <td>Fatimah Clark</td>
+                <td>fatimah.clark@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#7</th>
+                <td>Klaudia Rhodes</td>
+                <td>klaudia.rhodes@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#8</th>
+                <td>Tillie Lucero</td>
+                <td>tillie.lucero@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#9</th>
+                <td>Sabrina Stephenson</td>
+                <td>sabrina.stephenson@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#10</th>
+                <td>Annie Smith</td>
+                <td>annie.smith@mail.com</td>
+                <td>Yes</td>
+                <td class="t-end">
+                  <a href="#">
+                    <span class="material-icons me-4">
+                      visibility
+                    </span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons">
+                      edit
+                    </span>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <ul class="pagination px-5">
+          <li class="page-item">
+            <a class="page-link" href="#">
+              <span class="material-icons">
+                arrow_back_ios
+              </span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">
+              <span class="material-icons">
+                arrow_forward_ios
+              </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+      <!--Modal-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content rounded-0 border-1 border-gray-400 d-flex justify-content-between flex-row p-5 ">
+              <img src="./emir.jpeg" alt="admin avatar">
+              <div class="w-100 ps-4">
+              <div class="d-flex justify-content-between">
+              <h3>#1</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <h3>Admin</h3>
+              <h2 class="fs-1 lh-lg mr-50 fw-bold">Emir Wicks</h2>
+              <h4 class="text-gray ">emir.wicks@mail.com</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="bg-primary py-2 px-3 d-inline-block">Verified</h4>
+                <a href="#collapse_modal" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse_modal">
+                  <span class="material-icons">
+                  expand_more
+                  </span>
+                </a>
+              </div>
+              <div class="collapse" id="collapse_modal">
+                <form action="" class="d-flex justify-content-between mt-4">
+                  <label for="verified">
+                    <input type="button" value="Deactivate" id="verified" class="btn btn-outline-danger py-2 px-4">
+                  </label>
+                  <label for="edit">
+                    <input type="button" value="Edit" id="verified" class="btn btn-high-light py-2 px-4">
+                  </label>
+                </form>
+              </div>
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!--Modal end-->
+  </div>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    const myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
+    const modalAct = document.querySelectorAll('.t-end a:first-child');
+    modalAct.forEach(i =>  i.addEventListener('click', () =>  myModal.show() ) )
+  </script>
+</body>
+
+</html>
