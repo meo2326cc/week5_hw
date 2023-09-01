@@ -288,11 +288,14 @@
       </div>
       <!--Modal end-->
   </div>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script>
-    const myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
-    const modalAct = document.querySelectorAll('.t-end a:first-child');
-    modalAct.forEach(i =>  i.addEventListener('click', () =>  myModal.show() ) )
+  <script type="module" >
+import { Modal } from 'bootstrap';
+
+
+
+const myModal = new Modal(document.getElementById('exampleModal'))
+const modalAct = document.querySelectorAll('.t-end a:first-child');
+modalAct.forEach(i =>  i.addEventListener('click', () =>  myModal.show() ) )
   </script>
 </body>
 
