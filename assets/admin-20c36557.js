@@ -1,0 +1,1 @@
+import{M as o}from"./bootstrap.esm-2dcbb798.js";const t=new o(document.getElementById("exampleModal")),d=document.querySelectorAll(".t-end a:first-child");d.forEach(e=>e.addEventListener("click",()=>t.show()));

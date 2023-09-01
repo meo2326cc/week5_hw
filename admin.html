@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin</title>
   
-  <link rel="stylesheet" href="/week5_hw/assets/all-aacd0a86.css">
+  <script type="module" crossorigin src="/week5_hw/assets/admin-20c36557.js"></script>
+  <link rel="modulepreload" crossorigin href="/week5_hw/assets/bootstrap.esm-2dcbb798.js">
+  <link rel="stylesheet" href="/week5_hw/assets/bootstrap-aacd0a86.css">
 </head>
 
 <body>
@@ -323,12 +325,7 @@
       </div>
       <!--Modal end-->
   </div>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script>
-    const myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
-    const modalAct = document.querySelectorAll('.t-end a:first-child');
-    modalAct.forEach(i =>  i.addEventListener('click', () =>  myModal.show() ) )
-  </script>
+  
 </body>
 
 </html>
