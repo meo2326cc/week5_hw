@@ -17,8 +17,9 @@
   "dependencies": {
     "bootstrap": "^5.3.1",
     "gh-pages": "^5.0.0",
-    "glob": "^10.2.2",
+    "glob": "^10.3.4",
     "material-icons": "^1.13.10",
+    "path": "^0.12.7",
     "reset-css": "^5.0.2",
     "sass": "^1.61.0",
     "sass-loader": "^13.2.2",
